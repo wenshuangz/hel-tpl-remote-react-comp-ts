@@ -8,6 +8,22 @@
 # testing
 /coverage
 
+# webpack index entry 运行时代码
+hel_dist
+# webpack js entry 运行时代码
+hel_bundle
+# npm module normal js 入口文件目录
+hel_proxy
+# npm module esm js 入口文件目录
+hel_proxy_es
+# ts源码替换相对相对路径后端文件
+lib
+# ts项目的中间编译js代码产物
+lib-js
+
+tmp
+
+
 # production
 /build
 
@@ -21,3 +37,5 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+tnpm
