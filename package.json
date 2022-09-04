@@ -7,17 +7,17 @@
   "unpkg": "hel_dist/entry.js",
   "version": "2.0.0",
   "dependencies": {
-    "hel-lib-proxy": "^3.8.0",
-    "hel-micro": "^3.8.1",
-    "react": ">=16.14.0",
+    "hel-lib-proxy": "^3.8.3",
+    "hel-micro": "^3.8.4",
+    "react": ">=16.8.0",
     "react-app-polyfill": "^3.0.0",
-    "react-dom": ">=16.14.0",
+    "react-dom": ">=16.8.0",
     "replace-absolute-path": "^1.0.1"
   },
   "peerDependencies": {
-    "react": ">=16.14.0",
+    "react": ">=16.8.0",
     "react-app-polyfill": "^3.0.0",
-    "react-dom": ">=16.14.0"
+    "react-dom": ">=16.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
@@ -47,7 +47,7 @@
     "eslint-webpack-plugin": "^3.1.1",
     "file-loader": "^6.2.0",
     "fs-extra": "^10.0.0",
-    "hel-dev-utils": "^2.1.2",
+    "hel-dev-utils": "^2.3.0",
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.4.3",
