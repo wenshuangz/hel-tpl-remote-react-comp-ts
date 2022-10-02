@@ -11,7 +11,7 @@
 |--------------------------------------------------------------------------
 */
 // import { preFetchLib } from 'hel-micro';
-import { libReady, isSubApp } from 'hel-lib-proxy';
+import { libReady, isMasterApp } from 'hel-lib-proxy';
 import { LIB_NAME } from './configs/subApp';
 
 async function main() {
@@ -24,7 +24,7 @@ async function main() {
   libReady(LIB_NAME, libProperties.default);
 
   // 非子应用时（即不是被别的模块触发载入的情况），自己挂载渲染节点，方便本地调试
-  if (!isSubApp()) {
+  if (isMasterApp()) {
     await import('./loadApp');
   }
 }
