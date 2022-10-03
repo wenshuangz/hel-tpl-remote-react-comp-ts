@@ -1,5 +1,7 @@
 import HelloRemoteReactComp from './HelloRemoteReactComp';
 
-export {
+const toExport = {
   HelloRemoteReactComp,
 }
+
+export default toExport;

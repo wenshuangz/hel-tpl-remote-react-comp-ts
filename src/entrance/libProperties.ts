@@ -1,4 +1,4 @@
-import * as comps from 'components';
+import comps from 'components';
 
 export type LibProperties = typeof comps;
 

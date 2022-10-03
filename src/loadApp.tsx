@@ -1,7 +1,7 @@
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import * as comps from 'components';
+import comps from 'components';
 
 function getHostNode(id = 'root') {
   let node = document.getElementById(id);
