@@ -1,4 +1,4 @@
-## hel-tpl-remote-react-comps-ts
+## sy-hel-tpl-remote-react-comps-ts
 最简单的远程react组件模板(ts)
 codesandbox:  https://codesandbox.io/s/demo-load-remote-react-comp-2bnpl0?file=/src/App.js
 

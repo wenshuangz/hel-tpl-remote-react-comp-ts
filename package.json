@@ -1,11 +1,11 @@
 {
-  "name": "hel-tpl-remote-react-comps-ts",
-  "appGroupName": "hel-tpl-remote-react-comps-ts",
+  "name": "sy-hel-tpl-remote-react-comps-ts",
+  "appGroupName": "sy-hel-tpl-remote-react-comps-ts",
   "main": "hel_proxy/entry.js",
   "module": "hel_proxy_es/entry.js",
   "types": "lib/entrance/libTypes.ts",
   "unpkg": "hel_dist/entry.js",
-  "version": "2.0.0",
+  "version": "0.0.1",
   "dependencies": {
     "hel-lib-proxy": "^3.9.3",
     "hel-micro": "^3.9.3",

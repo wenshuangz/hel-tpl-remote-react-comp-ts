@@ -6,4 +6,4 @@
 |--------------------------------------------------------------------------
 */
 
-export const LIB_NAME = 'hel-tpl-remote-react-comps-ts';
+export const LIB_NAME = 'sy-hel-tpl-remote-react-comps-ts';
